@@ -1,17 +1,18 @@
 {
 	"schemaVersion": 1,
-	"id": "f-modding-framework",
+	"id": "fabric-modding-framework",
 	"version": "${version}",
-	"name": "F-modding-framework",
+	"name": "Fabric-modding-framework",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"willemdeprogrammeur"
+		"code from "
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://www.willemdeprogrammeur.nl/",
+		"sources": "https://github.com/Programmeur2030/fabric-modding-framework"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/f-modding-framework/icon.png",
 	"environment": "*",
 	"entrypoints": {
