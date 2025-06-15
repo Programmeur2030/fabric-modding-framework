@@ -3,7 +3,7 @@
 	"id": "f-modding-framework",
 	"version": "${version}",
 	"name": "F-modding-framework",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "met deze mod kan je makelijker je eigen mod maken. Deze mod bevat delen van code van Kaupenjoe (MIT-licentie, © 2023 Kaupenjoe).",
 	"authors": [
 		"Me!"
 	],
