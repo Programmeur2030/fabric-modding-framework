@@ -3,10 +3,9 @@
 	"id": "fabric-modding-framework",
 	"version": "${version}",
 	"name": "Fabric-modding-framework",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "met deze mod wordt het makelijker om je eigen mod te maken. Deze mod bevat delen van code van Kaupenjoe (MIT-licentie, © 2023 Kaupenjoe).",
 	"authors": [
 		"willemdeprogrammeur"
-		"code from "
 	],
 	"contact": {
 		"homepage": "https://www.willemdeprogrammeur.nl/",
@@ -28,7 +27,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
-		"minecraft": "~1.20.1",
+		"minecraft": "~1.21.1",
 		"java": ">=17",
 		"fabric-api": "*"
 	},
