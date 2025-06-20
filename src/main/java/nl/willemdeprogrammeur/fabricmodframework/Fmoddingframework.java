@@ -2,6 +2,7 @@ package nl.willemdeprogrammeur.fabricmodframework;
 
 import net.fabricmc.api.ModInitializer;
 
+import nl.willemdeprogrammeur.fabricmodframework.register.basic;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,5 +13,6 @@ public class Fmoddingframework implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("loading moding framework. next updates will be in dutch");
+		basic.Register_Basic();
 	}
 }

@@ -1,6 +1,9 @@
 package nl.willemdeprogrammeur.fabricmodframework.register;
 
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.minecraft.block.Block;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -33,6 +36,17 @@ public class basic {
             entries.add(registered);
         });
         return registered;
+    }
+
+    //een block registreren
+    private static Item BlockItem(String name, String MOD_ID, Block block) {
+        return Registry.register(Registries.ITEM, new Identifier(MOD_ID, name),
+                new BlockItem(block, new FabricItemSettings()));
+    }
+
+    public static Block block(String name, String MOD_ID, Block block) {
+        BlockItem(name, MOD_ID, block);
+        return Registry.register(Registries.BLOCK, new Identifier(MOD_ID, name), block)
     }
 
     // een item/block groep maken
