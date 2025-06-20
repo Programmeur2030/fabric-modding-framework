@@ -46,7 +46,7 @@ public class basic {
 
     public static Block block(String name, String MOD_ID, Block block) {
         BlockItem(name, MOD_ID, block);
-        return Registry.register(Registries.BLOCK, new Identifier(MOD_ID, name), block)
+        return Registry.register(Registries.BLOCK, new Identifier(MOD_ID, name), block);
     }
 
     // een item/block groep maken
